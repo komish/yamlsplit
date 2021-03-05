@@ -13,3 +13,9 @@ Writing 2.yaml
 Writing 3.yaml
 Writing 4.yaml
 ```
+
+## Release
+
+```
+YAMLSPLIT_COMMIT_HASH=$(git rev-parse HEAD) YAMLSPLIT_VERSION=x.y.z make releases
+```
